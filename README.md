@@ -1,6 +1,4 @@
 # Ex.No: 01A PLOT A TIME SERIES DATA
-###  Date: 
-
 # AIM:
 To Develop a python program to Plot a time series data (population/ market price of a commodity
 /temperature.
@@ -10,8 +8,10 @@ To Develop a python program to Plot a time series data (population/ market price
 3. Calculate the mean for the respective column.
 4. Plot the data according to need and can be altered monthly, or yearly.
 5. Display the graph.
-# PROGRAM:
-##POPULATION:
+## PROGRAM DEVELOPED BY: LOKESH R
+## REG NO: 212222240055
+## PROGRAM:
+## POPULATION:
 ```
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -25,7 +25,7 @@ plt.ylabel("Population (in Thousands)")
 plt.title("Average Annual Population (2000-2023)")
 plt.show()
 ```
-##MARKET PRICE:
+## MARKET PRICE:
 ```
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -41,7 +41,7 @@ plt.xlabel("Year")
 plt.ylabel("Price")
 plt.show()
 ```
-##TEMPERATURE:
+## TEMPERATURE:
 ```
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -52,12 +52,17 @@ plt.xlabel("Month")
 plt.ylabel("Temperature")
 plt.show()
 ```
-# OUTPUT:
-##POPULATION:
+## OUTPUT:
+## POPULATION:
+
 ![pop](https://github.com/LokeshRajamani/TSA_EXP1/assets/120544804/5fe0a8f5-4301-451d-8129-d471a27595a4)
-##MARKET PRICE:
+
+## MARKET PRICE:
+
 ![mark](https://github.com/LokeshRajamani/TSA_EXP1/assets/120544804/b24416ed-1054-442d-a20f-dd8aa6a19580)
-##TEMPERATURE:
+
+## TEMPERATURE:
+
 ![temp](https://github.com/LokeshRajamani/TSA_EXP1/assets/120544804/c069ffc5-3b71-4226-808a-1481d6358813)
 
 
